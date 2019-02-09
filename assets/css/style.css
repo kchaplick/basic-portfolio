@@ -176,3 +176,21 @@ input::placeholder{
     margin-bottom:20px;
 }
 
+h3{
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+.portfolioImage{
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin:20px;
+    position: relative;
+}
+
