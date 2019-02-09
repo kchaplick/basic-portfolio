@@ -24,45 +24,60 @@
 
     <body>
        <!--header--> 
-        <header>
+       <header>
+            <div class="logoBox">
             <h1>Kasie Chaplick</h1>
+            </div>
 
             <nav>
             <ul>
-                <li>About</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
+                
+                    <li><a href="index.html">About</a></li>
+                    <div class="vertical-line" style="height: 10px;"></div> 
+                
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <div class="vertical-line" style="height: 10px;"></div> 
+
+                <li><a href="contact.html">Contact</a></li>
             </ul>
             </nav>
-        </header> 
-
-        <!--Contact form wrapper-->
-        <div>
+        </header>  
+        
+        <!--horizontal rule-->
+        <hr> 
+        
+        <section>
+           <!--Contact form wrapper-->
+        <div class="whiteBox">
             <h2>Contact</h2>
             <hr>
-            <!--Form-->
+             <!--Form-->
             <form id="contactForm">
-                Name:<br>
-                    <input type="text" name="firstname lastname">
-                    <br>
+            <div class="formHeaders">Name</div>
+                <input type="text" name="firstname lastname" placeholder="John Smith">
+                <br>
 
-                Email:<br>
-                    <input type="email" name="email">
-                    <br>
+            <div class="formHeaders">Email</div>
+                <input type="email" name="email" placeholder="johnsmith@gmail.com">
+                <br>
 
-                Message:<br>
-                    <textarea rows="4" cols="50" name="message" form="contactForm">
-                    Enter your message here...</textarea><br>
-                <input type="submit" name="submit">     
+            <div class="formHeaders">Message</div>
+                <textarea rows="4" cols="50" name="message" form="contactForm">
+                Enter your message here...</textarea><br>
+
+            <input class="submitButton" type="submit" name="submit">     
 
             </form>
-         
+     
         </div>    
+    </section>
 
             <!--footer-->
             <footer>
-                <p>Copyright &copy;</p>
-            </footer>    
+                <p class="copyright">Copyright &copy;</p>
+            </footer>     
 
     </body>
 </html>
+
+
