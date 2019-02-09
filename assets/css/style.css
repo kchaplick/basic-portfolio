@@ -1,28 +1,24 @@
 
 
-
+/* Header including nav*/
 header{
     
     position: relative;
     width: 960px;
     margin: auto;
-   
-    
 }
 
+/* Box around name porttion of header*/
 .logoBox{
-    
     display: inline-block;
     background-color: blue;
     width: 200px;
     position: relative;
     bottom:20px;
     height: 68px;
-    
-    
 }
 
-/* Header logo */
+/* Name portion of logo */
 h1{
     background-color:#4aaaa5;
     color:#ffffff;
@@ -30,15 +26,12 @@ h1{
     font-size: 20px;
     width: 200px;
     position: relative;
-    
     text-align: center;
     display: inline-block;
     padding: 26px 0px;
-    
-    
-    
-    
 }
+
+/* Contatiner for Navigation links*/
 nav{
     display: inline-block;
     position: absolute;
@@ -46,16 +39,18 @@ nav{
     top:20%;
 }
 
+/* Navigation link contatiner*/
 ul{
-    display: inline-block;
-    
+    display: inline-block;  
 }
 
+/*navigation links*/
 li{
     float: left;
     list-style-type:none;
     
 }
+
 
 a{
     text-decoration: none;
@@ -64,6 +59,7 @@ a{
     color:#cccccc;
 }
 
+/* line between nav links*/
 .vertical-line{
     width: 0px;
     height: 100%;
@@ -73,24 +69,22 @@ a{
     background-color: red;
     padding: 1px 0px;
     margin-top: 2px;
-    
   }
 
-
+/*Horizontal line*/
 hr{
     margin: 0;
     border: solid 1px #cccccc;
-
 }
 
-
+/*Container for background image that whiteBox sits in*/
 section{
     background-image: url("../images/white-waves.png");
     background-color:#ffffff;
-    text-align: center;
-    
+    text-align: center; 
 }
 
+/*container for all elements on each page*/
 .whiteBox{
     background-color: white;
     width: 960px;
@@ -100,12 +94,13 @@ section{
     padding: 0px 20px;
 }
 
+/*Title for content inside whiteBox*/
 h2{
     text-align: left;
     color:#4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
+
 
 .profilePhoto{
     margin: 20px 20px 20px 0px;
@@ -137,13 +132,14 @@ form{
     text-align: left;
 }
 
+
 input{
-    width: 100%;
+    width: 100%; /*to make the input boxes take up the entire box*/
 }
 
 textarea{
     width: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid #ccc; /*to change the border color*/
     
 }
 
@@ -156,6 +152,7 @@ textarea{
     margin:20px 0px 10px 0px;
 }
 
+/*change the font of the form headers*/
 input::placeholder{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
@@ -177,26 +174,27 @@ input::placeholder{
     margin-bottom:20px;
 }
 
+/*container for each tile to include photo and h3*/
 .card{
     
     position: relative;
     float: left;
 }
 
+/*contatiner for all cards*/
 .portfolioTiles{
     width: 500px;
-    
-    
 }
 
+/*image inside each card*/
 .portfolioImage{
     float: left;
     width: 200px;
     height: 150px;
     margin:20px;
-    
 }
 
+/*text inside each card*/
 h3{
     background-color: #4aaaa5;
     width: 200px;
@@ -208,9 +206,6 @@ h3{
     position:absolute;
     left:20px;
     top:120px;
-    
-    
-    
 }
 
 
