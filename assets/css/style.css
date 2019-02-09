@@ -72,6 +72,7 @@ a{
     margin: 0px 10px;
     background-color: red;
     padding: 1px 0px;
+    margin-top: 2px;
     
   }
 
@@ -95,7 +96,7 @@ section{
     width: 960px;
     display: inline-block;
     border: 1px solid #dddddd;
-    margin:40px; 0px;
+    margin:40px 0px;
     padding: 0px 20px;
 }
 
@@ -176,14 +177,16 @@ input::placeholder{
     margin-bottom:20px;
 }
 
-h3{
-    background-color: #4aaaa5;
-    position: absolute;
-    width: 200px;
-    height: 30px;
-    font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #ffffff;
+.card{
+    
+    position: relative;
+    float: left;
+}
+
+.portfolioTiles{
+    width: 500px;
+    
+    
 }
 
 .portfolioImage{
@@ -191,6 +194,24 @@ h3{
     width: 200px;
     height: 150px;
     margin:20px;
-    position: relative;
+    
 }
+
+h3{
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    display: inline-block;
+    position:absolute;
+    left:20px;
+    top:120px;
+    
+    
+    
+}
+
+
 
